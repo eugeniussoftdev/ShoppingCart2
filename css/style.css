@@ -1,0 +1,15 @@
+.info {
+    height: 120px;
+}
+
+.buy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.price {
+    position: absolute;
+    right: 0;
+    top: 3px;
+}

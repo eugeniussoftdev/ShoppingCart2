@@ -1,23 +1,15 @@
-
-    <div class="panel panel-default row" ng-controller="productListCtrl">
-        <div class="col-xs-3">
-
-            <a ng-click="selectCategory()" class="btn btn-block btn-default btn-lg">HOME</a>
-            <a class="btn btn-block btn-default btn-lg" ng-repeat="item in data.products | orderBy: 'category' | category: 'category'" ng-click="selectCategory(item)">{{item | uppercase}}</a>
-
-           
-        </div>
-   
-        <div class="col-xs-8">
-
-            <div class="row">
-                <div class="col-xs-12 col-md-6"   ng-repeat="item in data.products | filter: catFilterFn |  range:selectedPage:pageSize ">
-                    
+<div class="panel panel-default row  bg-dark" ng-controller="productListCtrl">
+    <div class="col-xs-3">
+        <a ng-click="selectCategory()" class="btn btn-block btn-default btn-lg">HOME</a>
+        <a class="btn btn-block btn-default btn-lg" ng-repeat="item in data.products | orderBy: 'category' | category: 'category'" ng-click="selectCategory(item)">{{item | uppercase}}</a>
+    </div>
+    <div class="col-xs-8">
+        <div class="row">
+            <div class="col-xs-12 col-md-6" ng-repeat="item in data.products | filter: catFilterFn |  range:selectedPage:pageSize ">
                 <div class="thumbnail col-xs-4">
-                    <img ng-src="{{item.img}}" alt="butyphone"> 
+                    <img ng-src="{{item.img}}" alt="buyphone">
                 </div>
                 <div class="col-xs-4">
-                    
                     <strong> {{item.name}}</strong>
                     <div>
                         {{item.description}}
@@ -26,19 +18,15 @@
                     <ui-view></ui-view>
                 </div>
                 <div class="col-xs-4 info">
-                    <!-- {{item.description}} -->
-                    <span class="pull-right label label-primary">
+                    <span class="label label-primary price">
                         {{item.price | currency}}
                     </span>
                     <button class="btn btn-success buy" ng-click="addProductToCart(item)">Add to</button>
-                </div>  
                 </div>
-               
             </div>
-              <div class="pull-right btn-group">
-                <a class="btn btn-default" ng-repeat="page in data.products | filter:catFilterFn | pageCount:pageSize" ng-click="selectPage($index+1)">{{$index+1}}</a>
-            </div>
-
         </div>
-
+        <div class="pull-right btn-group">
+            <a class="btn btn-default" ng-repeat="page in data.products | filter:catFilterFn | pageCount:pageSize" ng-click="selectPage($index+1)">{{$index+1}}</a>
+        </div>
     </div>
+</div>

@@ -7,16 +7,7 @@
     <script src="node_modules/angular/angular.js"></script>
     <script src="node_modules/angular-ui-router/build/angular-ui-router.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <style>
-    .info{
-        height: 120px;
-    }
-    .buy{
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body ng-controller="storeCtrl">
@@ -29,11 +20,11 @@
     <ui-view></ui-view>
 </body>
 <script src="app.js"></script>
+<script src="config/config.js"></script>
 <script src="controllers/storeController.js"></script>
 <script src="controllers/productListCtrl.js"></script>
-<script src="services/ShoppingCart.js"></script>
+<script src="services/ShoppingCartService.js"></script>
 <script src="filters/catFilter.js"></script>
 <script src="directives/cartDirective.js"></script>
-<script src="config/config.js"></script>
 
 </html>

@@ -1,12 +1,6 @@
-<style>
-/*.navbar-right { float: right !important; margin-right: 5px;}
-.navbar-text { margin-right: 10px; }*/
-</style>
 <div class="navbar">
-	<div class="navbar-text">
-		<b>Your cart: </b>
-		{{itemCount()}} items,
-		{{total() | currency}}
-	<a class="btn btn-warning navbar-btn" ui-sref="cart">Checkout</a>
-	</div>
+    <div class="navbar-text">
+        <b>Basket: </b> {{itemCount()}} items, {{total() | currency}}
+        <a class="btn btn-warning navbar-btn" ui-sref="cart">Checkout</a>
+    </div>
 </div>
