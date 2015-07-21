@@ -3,47 +3,37 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My Shop</title>
+    <title>Phone Shop</title>
     <script src="node_modules/angular/angular.js"></script>
     <script src="node_modules/angular-ui-router/build/angular-ui-router.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+    .info{
+        height: 120px;
+    }
+    .buy{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    </style>
 </head>
 
 <body ng-controller="storeCtrl">
     <div class="navbar navbar-inverse">
-        <a href="#" class="navbar-brand">MY SPORT STORE</a>
-    </div>
-    <div class="panel panel-default row" ng-controller="productListCtrl">
-        <div class="col-xs-3">
-            <h2>Categories</h2>
-            <a ng-click="selectCategory()" class="btn btn-block btn-default btn-lg">HOME</a>
-            <a class="btn btn-block btn-default btn-lg" ng-repeat="item in data.products | orderBy: 'category' | category: 'category'" ng-click="selectCategory(item)">{{item}}</a>
-
-           
-        </div>
-        <div class="col-xs-8">
-            <h2>Products</h2>
-            <div class="well" ng-repeat="item in data.products | filter: catFilterFn | range:selectedPage:pageSize ">
-                <h3>
-					<strong>{{item.name}}</strong>
-					<span class="pull-right label label-primary">
-						{{item.price | currency}}
-					</span>
-					<span class="lead">{{item.description}}</span>
-				</h3>
-            </div>
-            <div class="pull-right btn-group">
-                <a class="btn btn-default" ng-repeat="page in data.products | filter:catFilterFn | pageCount:pageSize" ng-click="selectPage($index+1)">{{$index+1}}</a>
-            </div>
-
+        <a ui-sref="home" class="navbar-brand">PHONE SHOP</a>
+        <div class="pull-right">
+            <cart-basket></cart-basket>
         </div>
     </div>
+    <ui-view></ui-view>
 </body>
-<script>
-angular.module('App', ["catFilter"])
-</script>
+<script src="app.js"></script>
 <script src="controllers/storeController.js"></script>
-<script src="filters/catFilter.js"></script>
 <script src="controllers/productListCtrl.js"></script>
+<script src="services/ShoppingCart.js"></script>
+<script src="filters/catFilter.js"></script>
+<script src="directives/cartDirective.js"></script>
+<script src="config/config.js"></script>
 
 </html>

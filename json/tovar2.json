@@ -1,0 +1,73 @@
+[{
+    "id": "0001",
+    "name": "Lenovo",
+    "model": "S920",
+    "category": "Lenovo",
+    "price": 1000,
+    "img": "/img/phone-img.gif",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptas neque consequatur consectetur soluta saepe."
+}, {
+    "id": "0002",
+    "name": "Lenovo",
+    "model": "S850",
+    "category": "Lenovo",
+    "price": 900,
+    "img": "/img/phone-img.gif",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptas neque consequatur consectetur soluta saepe."
+}, {
+    "id": "0003",
+    "name": "Lenovo",
+    "model": "P780",
+    "category": "Lenovo",
+    "price": 1500,
+    "img": "/img/phone-img.gif",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptas neque consequatur consectetur soluta saepe."
+}, {
+    "id": "0004",
+    "name": "Lenovo",
+    "model": "S820",
+    "category": "Lenovo",
+    "price": 800,
+    "img": "../img/phone-img.gif",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptas neque consequatur consectetur soluta saepe."
+}, {
+    "id": "0005",
+    "name": "Lenovo",
+    "model": "S8",
+    "category": "Lenovo",
+    "price": 2000,
+    "img": "../img/phone-img.gif",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptas neque consequatur consectetur soluta saepe."
+}, {
+    "id": "0010",
+    "name": "Iphone",
+    "model": "6",
+    "category": "Iphone",
+    "price": 2000,
+    "img": "../img/phone-img.gif",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptas neque consequatur consectetur soluta saepe."
+}, {
+    "id": "0011",
+    "name": "Iphone",
+    "model": "5",
+    "category": "Iphone",
+    "price": 1500,
+    "img": "../img/phone-img.gif",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptas neque consequatur consectetur soluta saepe."
+}, {
+    "id": "0012",
+    "name": "Iphone",
+    "model": "5S",
+    "category": "Iphone",
+    "price": 1300,
+    "img": "../img/phone-img.gif",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptas neque consequatur consectetur soluta saepe."
+}, {
+    "id": "0013",
+    "name": "Iphone",
+    "model": "4S",
+    "category": "Iphone",
+    "price": 1000,
+    "img": "../img/phone-img.gif",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, voluptas neque consequatur consectetur soluta saepe."
+}]

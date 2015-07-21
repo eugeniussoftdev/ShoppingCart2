@@ -1,7 +1,7 @@
 	angular.module('App')
 
-	.constant('productListPageCount', 3)
-	    .controller('productListCtrl', function($scope, $filter, productListPageCount) {
+	.constant('productListPageCount', 6)
+	    .controller('productListCtrl', function($scope, $filter, productListPageCount, cart) {
 
 	        var selectedCategory = null;
 
@@ -21,6 +21,9 @@
 
 	            return selectedCategory == null ||
 	                product.category == selectedCategory;
+	        };
+	        $scope.addProductToCart = function(product){
+	        	cart.addProduct(product.id, product.name, product.price);
 	        };
 
 

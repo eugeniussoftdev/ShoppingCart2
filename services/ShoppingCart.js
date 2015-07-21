@@ -12,7 +12,7 @@ var addProduct = function(id, name, price){
  		} 
  	}
  	if(!alreadyExist){
- 		cartData.push({id: id, name: name, price: price: counter: 1})
+ 		cartData.push({id: id, name: name, price: price, counter: 1})
  	}
 };
 var removeProduct = function(){

@@ -1,5 +1,5 @@
 angular.module('App')
-    .constant('dataUrl', 'json/product.json' )
+    .constant('dataUrl', 'json/tovar.json' )
     // .constant('dataUrl', 'http://127.0.0.1:8080/ShoppingCartPro/json/product.json' )
     .controller('storeCtrl', function($scope, $http, dataUrl) {
 
