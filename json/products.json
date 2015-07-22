@@ -1,109 +1,100 @@
-
-
 [{
-    "id": "0001",
-    "name": "Lenovo",
-    "model": "S920",
-    "category": "Lenovo",
-    "price": 1000,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-},
-{
-    "id": "0001",
-    "name": "Lenovo",
-    "model": "S920",
-    "category": "Lenovo",
-    "price": 1000,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-},
-{
-    "id": "0001",
-    "name": "Lenovo",
-    "model": "S920",
-    "category": "Lenovo",
-    "price": 1000,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-},
-{
-    "id": "0001",
-    "name": "Lenovo",
-    "model": "S920",
-    "category": "Lenovo",
-    "price": 1000,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-},
-{
-    "id": "0001",
-    "name": "Lenovo",
-    "model": "S920",
-    "category": "Lenovo",
-    "price": 1000,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-},
-{
-    "id": "0001",
-    "name": "Lenovo",
-    "model": "S920",
-    "category": "Lenovo",
-    "price": 1000,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-},
-{
-    "id": "0001",
-    "name": "Lenovo",
-    "model": "S920",
-    "category": "Lenovo",
-    "price": 1000,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-},
-{
-    "id": "0001",
-    "name": "Lenovo",
-    "model": "S920",
-    "category": "Lenovo",
-    "price": 1000,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-},
-{
-    "id": "0010",
-    "name": "Iphone",
-    "model": "6",
-    "category": "Iphone",
-    "price": 2000,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-}, {
-    "id": "0011",
-    "name": "Iphone",
-    "model": "5",
-    "category": "Iphone",
-    "price": 1500,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-}, {
-    "id": "0012",
-    "name": "Iphone",
-    "model": "5S",
-    "category": "Iphone",
-    "price": 1300,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-}, {
-    "id": "0013",
-    "name": "Iphone",
-    "model": "4S",
-    "category": "Iphone",
-    "price": 1000,
-    "img": "/ShoppingCartPro/img/phone-img.gif",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-}
-]
+        "id": "0001",
+        "name": "Lenovo",
+        "model": "S920",
+        "category": "Lenovo",
+        "price": 1000,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }, {
+        "id": "0010",
+        "name": "Iphone",
+        "model": "6",
+        "category": "Iphone",
+        "price": 2000,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }, {
+        "id": "0011",
+        "name": "Iphone",
+        "model": "5",
+        "category": "Iphone",
+        "price": 1500,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }, {
+        "id": "0012",
+        "name": "Iphone",
+        "model": "5S",
+        "category": "Iphone",
+        "price": 1300,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }, {
+        "id": "0013",
+        "name": "Iphone",
+        "model": "4S",
+        "category": "Iphone",
+        "price": 1000,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    },
 
+    {
+        "id": "0001",
+        "name": "Lenovo",
+        "model": "S920",
+        "category": "Lenovo",
+        "price": 1000,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }, {
+        "id": "0001",
+        "name": "Lenovo",
+        "model": "S920",
+        "category": "Lenovo",
+        "price": 1000,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }, {
+        "id": "0001",
+        "name": "Lenovo",
+        "model": "S920",
+        "category": "Lenovo",
+        "price": 1000,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }, {
+        "id": "0001",
+        "name": "Lenovo",
+        "model": "S920",
+        "category": "Lenovo",
+        "price": 1000,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }, {
+        "id": "0001",
+        "name": "Lenovo",
+        "model": "S920",
+        "category": "Lenovo",
+        "price": 1000,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }, {
+        "id": "0001",
+        "name": "Lenovo",
+        "model": "S920",
+        "category": "Lenovo",
+        "price": 1000,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }, {
+        "id": "0001",
+        "name": "Lenovo",
+        "model": "S920",
+        "category": "Lenovo",
+        "price": 1000,
+        "img": "/ShoppingCartPro/img/phone-img.gif",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }
+]

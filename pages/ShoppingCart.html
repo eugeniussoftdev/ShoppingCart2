@@ -1,4 +1,44 @@
 <div class="lead">
     <h2>Products</h2>
 </div>
-<a ui-sref="home" class="btn btn-primary">Back</a>
+<div ng-controller="BasketController">
+    <div class="alert alert-warning" ng-show="cartData.length == 0">
+        <p>Your basket is empty</p>
+        <a ui-sref="home">Click to return</a>
+    </div>
+    <div ng-hide="cartData.length == 0">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Quantity</th>
+                    <th>Item</th>
+                    <th>Model</th>
+                    <th class="text-right">Price</th>
+                    <th class="text-right">Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="item in cartData">
+                    <td class="text-center">{{item.counter}}</td>
+                    <td class="text-left">{{item.name}}</td>
+                    <td class="text-left">{{item.model}}</td>
+                    <td class="text-right">{{item.price | currency }}</td>
+                    <td class="text-right">{{item.price * item.counter | currency}}</td>
+                    <td>
+                        <button class="btn btn-sm btn-danger" ng-click="remove(item.id)">Remove</button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="text-right" colspan="3">Total:</td>
+                    <td class="text-right">{{total() | currency }}</td>
+                </tr>
+            </tfoot>
+        </table>
+        <div class="text-center">
+            <a ui-sref="home" class="btn btn-primary">Back</a>
+            <a ui-sref="order" class="btn btn-primary">Order</a>
+        </div>
+    </div>
+</div>

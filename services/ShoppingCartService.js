@@ -3,7 +3,7 @@ angular.module('Cart', [])
 
         var cartData = [];
 
-        var addProduct = function(id, name, price) {
+        var addProduct = function(id, name, model, price) {
             var alreadyExist = false;
             for (var i = 0; i < cartData.length; i += 1) {
                 if (cartData[i].id == id) {
@@ -15,12 +15,13 @@ angular.module('Cart', [])
                 cartData.push({
                     id: id,
                     name: name,
+                    model: model,
                     price: price,
                     counter: 1
                 })
             }
         };
-        var removeProduct = function() {
+        var removeProduct = function(id) {
             for (var i = 0; i < cartData.length; i += 1) {
                 if (cartData[i].id == id) {
                     cartData.splice(i, 1);

@@ -11,6 +11,7 @@
                 </div>
                 <div class="col-xs-4">
                     <strong> {{item.name}}</strong>
+                    <strong> {{item.model}}</strong>
                     <div>
                         {{item.description}}
                     </div>
@@ -21,7 +22,7 @@
                     <span class="label label-primary price">
                         {{item.price | currency}}
                     </span>
-                    <button class="btn btn-success buy" ng-click="addProductToCart(item)">Add to</button>
+                    <button class="btn btn-success buy" ng-click="addProductToCart(item)">Buy me</button>
                 </div>
             </div>
         </div>

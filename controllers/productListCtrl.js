@@ -22,8 +22,8 @@
 	            return selectedCategory == null ||
 	                product.category == selectedCategory;
 	        };
-	        $scope.addProductToCart = function(product){
-	        	cart.addProduct(product.id, product.name, product.price);
+	        $scope.addProductToCart = function(product) {
+	            cart.addProduct(product.id, product.name, product.model, product.price);
 	        };
 
 
